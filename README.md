@@ -2,7 +2,7 @@
 
 Bu proje, Java öğrenme sürecinin bir parçası olarak geliştirilmiş, konsol tabanlı bir Rol Yapma Oyunu'dur (RPG).
 
-![RIFT Portalı](./game/rift-portal.png)
+<img src="./game/rift-portal.png" style="background-size: cover;" alt="RIFT Portalı" width="400">
 
 ## 📖 Oyunun Hikayesi
 
