@@ -1,0 +1,53 @@
+Proje Detayları: Paralel Evrenden Kaçış Macerası
+
+Oyunun Adı (Öneri): Chrono-Exile: Paralel Evrenden Kaçış / Riftbound: Portalların Perdesi
+
+1. Temel Konsept ve Hikaye:
+Normal dünyamızda mutlu mesut yaşarken, dünyadaki bir bilim adamının başarısız bir deneyi sonucu kendimizi paralel bir yaşama atılmış buluyoruz. Amacımız, bu paralel evrenden kurtulup kendi gerçekliğimize geri dönmek.
+
+2. Oyun Başlangıcı:
+
+Oyuncu karakter ismini belirleyecek.
+Oyuncu başlangıçta 3 dal (sınıf) arasından birini seçmek zorunda kalacak: Savaşçı, Okçu, Büyücü. Her sınıfın kendine özgü başlangıç canı, hasarı ve parası olacak.
+3. Oyun Döngüsü ve Hedef:
+
+Oyunun ana mantığı, her eve döndüğümüzde canımızın yenilenmesi.
+Bu paralel dünyada gittiğimiz yerde bir evimiz olacak. Bu evde normal hayatımıza dönmemize yarayacak bir portal bulunacak.
+Portalın aktifleşmesi için 4 ayrı özel eşyaya ihtiyacımız olacak. Bu özel eşyaları da her bir haritayı (map'i) bitirdiğimizde alacağız.
+Ana hedef, 4 özel eşyayı toplayıp portalı aktif hale getirerek oyunu kazanmak.
+4. Dünya Yapısı ve Mapler:
+
+Oyunda 4 farklı harita (map) bulunacak.
+Her map'in kendine özgü zorluk seviyesi, tek tür canavarı ve ödülü olacak.
+Her mape girdiğimizde o map'teki canavarın sayısı rastgele değişecek (örn: 3 ile 5 arası veya 2 ile 6 arası).
+5. Savaş Mekaniği:
+
+Her mape girildiğinde oyuncuya savaşma veya kaçma durumları sunulacak.
+Savaşma: Oyuncu ve o map'e özgü canavar türünün belirli bir sayısı arasında sıra tabanlı bir savaş gerçekleşecek.
+Kaçma: Kaçma başarılı olursa savaşa girilmez, ana menüye dönülür. Başarısız olursa canavarlar hemen saldırır (örneğin 1 tur avantajları olur). Kaçma şansı için %70 gibi bir olasılık düşünülebilir.
+Her map'in canavarı farklı seviyede olacak ve ona göre savaş değerleri (can, hasar) olacak.
+6. Ödül ve Gelişim:
+
+Her map'ten kazandığımız para değişecek.
+Her map'teki tüm canavarları bitirdiğimizde, karşılığında para ve hikaye için gerekli olan özel bir eşya alacağız.
+Kazanılan paralar, başka maplerde daha güçlü olabilmek için mağazadan alışveriş yapmamızı sağlayacak.
+7. Envanter ve Eşyalar:
+
+Oyuncunun bir envanteri olacak (özel eşyalar ve varsa iksirler burada tutulabilir).
+Zırhlar: Mağazadan alınacak zırhlar bize sağlık değil, blok özelliği (zırh sağlığı) katacak.
+Canavarlar vurduğunda, ilk olarak oyuncunun canından değil, zırhın canından düşmesini sağlayacağız.
+Zırhın canı 0'a düştüğünde, zırh kırılır ve canavarlar doğrudan oyuncunun canına vurmaya başlar.
+Zırhın canı eve dönüldüğünde yenilenmez, mağazadan tekrar alınması veya tamir edilmesi gerekir.
+Silahlar: Mağazadan alınacak silahlar sadece oyuncunun saldırı gücünü artıracak.
+Oyuncu elinde maksimum bir silah tutabilecek. Yeni bir silah aldığında eskisiyle yer değiştirecek.
+Silahın verdiği hasar, oyuncunun temel hasarına eklenecek (Oyuncu Hasarı + Silah Hasarı = Toplam Hasar).
+Özel Eşyalar: Hikaye gereği toplanması gereken 4 özel eşya (Her map'i bitirince alınan).
+8. Ev (Güvenli Bölge):
+
+Oyuncu her eve döndüğünde, canı (HP) tam olarak yenilenir.
+Evde Mağazaya erişim sağlanır.
+Evde "Portal" bulunur ve 4 özel eşya tamamlandığında aktif olur.
+9. Mağaza:
+
+Oyuncu mağazadan zırh ve silah satın alabilecek.
+Fiyatlandırmalar adaletli ve oyun sürükleyiciliğini destekleyecek şekilde ayarlanmıştır.
